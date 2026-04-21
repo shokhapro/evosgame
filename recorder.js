@@ -34,7 +34,7 @@ window.StartRecordingJS = async function () {
         window.mediaRecorder = new MediaRecorder(stream, {
             mimeType: "video/webm; codecs=vp9",
             audioBitsPerSecond: 128000,
-            videoBitsPerSecond: 1000000
+            videoBitsPerSecond: 3000000
         });
 
         console.log("MediaRecorder created");
